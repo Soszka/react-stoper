@@ -1,0 +1,21 @@
+@import '../../styles/settings.scss';
+
+.button {
+    background: $color-success;
+    border: 0;
+    color: $color-light;
+    text-align: center;
+    line-height: 1.3;
+    padding: $base-size;
+    margin: 30px $base-size $base-size $base-size;
+    border-radius: $radius;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: $transition;
+    width: 150px;
+
+    &:hover {
+        background: green;
+    }
+}
